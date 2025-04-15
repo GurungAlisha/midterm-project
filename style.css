@@ -113,13 +113,18 @@
   
   /* === Gallery Page === */
   .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .gallery-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   
   .gallery img {
-    width: 100%;
+    width: 400px;
     border-radius: 10px;
     transition: transform 0.3s;
   }
