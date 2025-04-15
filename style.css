@@ -1,4 +1,4 @@
-/* === Global Styles === */
+
 * {
     margin: 0;
     padding: 0;
@@ -80,14 +80,14 @@
     border-top: 2px solid #f8c8dc;
   }
   
-  /* === Home Page === */
+  
   .hero-image {
     width: 100%;
     border-radius: 15px;
     margin-top: 20px;
   }
   
-  /* === Menu Page === */
+  
   table {
     width: 100%;
     border-collapse: collapse;
@@ -108,7 +108,7 @@
     color: #6d2b4c;
   }
   
-  /* === About Page === */
+  
   .about-section {
     background-color: #fff0f5;
     padding: 20px;
@@ -127,9 +127,10 @@
   .team ul{
     display: flex;
     justify-content: center;
+    gap: 20px;
 
   }
-  /* === Gallery Page === */
+  
   .gallery {
     display: flex;
     justify-content: space-evenly;
@@ -151,7 +152,7 @@
     transform: scale(1.05);
   }
   
-  /* === Contact Page === */
+  
   form {
     display: flex;
     flex-direction: column;
@@ -183,7 +184,7 @@
     background-color: #a04a74;
   }
   
-  /* === Responsive === */
+  
   @media (max-width: 768px) {
     nav {
       flex-direction: column;
