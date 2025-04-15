@@ -120,7 +120,11 @@
     padding-left: 20px;
     margin-top: 15px;
   }
-  
+  .team ul{
+    display: flex;
+    justify-content: center;
+
+  }
   /* === Gallery Page === */
   .gallery {
     display: flex;
