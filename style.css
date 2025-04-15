@@ -1,0 +1,184 @@
+/* === Global Styles === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #ffe6ec;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #f8c8dc;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #b85c8c;
+  }
+  
+  nav {
+    background-color: #ffebf0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #b85c8c;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #f8c8dc;
+    color: white;
+  }
+  
+  main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  footer {
+    background-color: #ffe6ec;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    border-top: 2px solid #f8c8dc;
+  }
+  
+  /* === Home Page === */
+  .hero-image {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  /* === Menu Page === */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 15px;
+    border-bottom: 1px solid #f3c6d4;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f8c8dc;
+    color: #6d2b4c;
+  }
+  
+  /* === About Page === */
+  .about-section {
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-section h2 {
+    color: #b85c8c;
+  }
+  
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+  
+  /* === Gallery Page === */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* === Contact Page === */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #f3c6d4;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #b85c8c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a04a74;
+  }
+  
+  /* === Responsive === */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  
+    table, th, td {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav a {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  }
+  
