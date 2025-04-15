@@ -29,6 +29,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
   }
   nav ul{
@@ -50,14 +51,20 @@
     background-color: #f8c8dc;
     color: white;
   }
-  
+  #logo{
+    height: 70px;
+  }
   main {
     padding: 30px;
     max-width: 900px;
     margin: auto;
   }
   section img{
-    height: 250px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  section h2{
+
   }
   
   footer {
