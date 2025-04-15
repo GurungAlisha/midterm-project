@@ -59,6 +59,10 @@
     max-width: 900px;
     margin: auto;
   }
+  .img-cont{
+    display: flex;
+    gap: 25px;
+  }
   section img{
     height: 450px;
     border-radius: 20px;
